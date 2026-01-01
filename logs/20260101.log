@@ -1,0 +1,162 @@
+2026-01-01 17:39:34,855 - UnifiedGigs - INFO - Running job search with params: {'site_name': ['linkedin', 'indeed'], 'search_term': 'remote teacher OR instructor OR professor OR tutor OR educational consultant OR curriculum developer', 'google_search_term': 'remote Education jobs since yesterday', 'location': 'New York, NY', 'results_wanted': 20, 'country_indeed': 'USA', 'hours_old': 24, 'linkedin_fetch_description': False, 'is_remote': True, 'job_type': 'fulltime'}
+2026-01-01 17:39:43,899 - UnifiedGigs - INFO - Found 12 jobs
+2026-01-01 18:15:09,835 - UnifiedGigs - INFO - Running job search with params: {'site_name': ['linkedin', 'google', 'brightermonday'], 'search_term': 'remote software developer OR software engineer OR programmer OR full stack developer OR backend developer OR frontend developer', 'google_search_term': 'remote Software Development jobs since yesterday', 'location': 'Nairobi', 'results_wanted': 20, 'country_indeed': None, 'hours_old': 24, 'linkedin_fetch_description': False, 'is_remote': True, 'job_type': 'fulltime'}
+2026-01-01 18:15:13,436 - UnifiedGigs - INFO - Found 0 jobs
+2026-01-01 18:15:13,438 - UnifiedGigs - ERROR - An error occurred during the job search: 'is_remote'
+Traceback (most recent call last):
+  File "D:\START-UP\UnifiedGigs\app.py", line 388, in <module>
+    jobs = jobs[jobs['is_remote'] == True]
+                ~~~~^^^^^^^^^^^^^
+  File "C:\Users\evans\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evans\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'is_remote'
+2026-01-01 18:17:46,077 - UnifiedGigs - INFO - Found 37 jobs
+2026-01-01 18:17:46,078 - UnifiedGigs - ERROR - An error occurred during the job search: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "D:\START-UP\UnifiedGigs\app.py", line 393, in <module>
+    jobs = jobs[jobs['is_remote'] == True]
+                ~~~~^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2026-01-01 18:17:48,798 - UnifiedGigs - INFO - Found 37 jobs
+2026-01-01 18:17:48,799 - UnifiedGigs - ERROR - An error occurred during the job search: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "D:\START-UP\UnifiedGigs\app.py", line 393, in <module>
+    jobs = jobs[jobs['is_remote'] == True]
+                ~~~~^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2026-01-01 18:17:57,042 - UnifiedGigs - INFO - Running job search with params: {'site_name': ['linkedin', 'google'], 'search_term': 'software developer OR software engineer OR programmer OR full stack developer OR backend developer OR frontend developer', 'google_search_term': 'Software Development jobs near  since yesterday', 'location': '', 'results_wanted': 20, 'country_indeed': None, 'hours_old': 24, 'linkedin_fetch_description': False, 'job_type': 'fulltime'}
+2026-01-01 18:18:05,431 - UnifiedGigs - INFO - Found 20 jobs
+2026-01-01 18:35:51,304 - UnifiedGigs - INFO - Running job search with params: {'site_name': ['brightermonday'], 'search_term': 'software developer OR software engineer OR programmer OR full stack developer OR backend developer OR frontend developer', 'google_search_term': 'Software Development jobs near  since yesterday', 'location': '', 'results_wanted': 20, 'country_indeed': None, 'hours_old': 24, 'linkedin_fetch_description': False, 'job_type': 'fulltime'}
+2026-01-01 18:35:53,397 - UnifiedGigs - INFO - Found 0 jobs
+2026-01-01 18:36:05,324 - UnifiedGigs - INFO - Running job search with params: {'site_name': ['google'], 'search_term': 'software developer OR software engineer OR programmer OR full stack developer OR backend developer OR frontend developer', 'google_search_term': 'Software Development jobs near  since yesterday', 'location': '', 'results_wanted': 20, 'country_indeed': None, 'hours_old': 24, 'linkedin_fetch_description': False, 'job_type': 'fulltime'}
+2026-01-01 18:36:12,262 - UnifiedGigs - INFO - Found 0 jobs
+2026-01-01 22:51:52,996 - UnifiedGigs - INFO - Running job search with params: {'site_name': ['linkedin', 'google', 'glassdoor'], 'search_term': 'remote web designer OR UI/UX designer OR user interface designer OR user experience designer', 'google_search_term': 'remote Web Design jobs since yesterday', 'location': '', 'results_wanted': 20, 'country_indeed': None, 'hours_old': 24, 'linkedin_fetch_description': False, 'is_remote': True, 'job_type': 'fulltime'}
+2026-01-01 22:52:01,106 - UnifiedGigs - ERROR - Error in job search: 'NoneType' object has no attribute 'get_glassdoor_url'
+Traceback (most recent call last):
+  File "D:\START-UP\UnifiedGigs\app.py", line 330, in cached_scrape_jobs
+    return scrape_jobs(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\START-UP\UnifiedGigs\__init__.py", line 129, in scrape_jobs
+    site_value, scraped_data = future.result()
+                               ^^^^^^^^^^^^^^^
+  File "C:\Users\evans\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evans\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\evans\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\START-UP\UnifiedGigs\__init__.py", line 120, in worker
+    site_val, scraped_info = scrape_site(site)
+                             ^^^^^^^^^^^^^^^^^
+  File "D:\START-UP\UnifiedGigs\__init__.py", line 111, in scrape_site
+    scraped_data: JobResponse = scraper.scrape(scraper_input)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\START-UP\UnifiedGigs\glassdoor\__init__.py", line 71, in scrape
+    self.base_url = self.scraper_input.country.get_glassdoor_url()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_glassdoor_url'
+2026-01-01 22:52:01,215 - UnifiedGigs - ERROR - An error occurred during the job search: 'NoneType' object has no attribute 'get_glassdoor_url'
+Traceback (most recent call last):
+  File "D:\START-UP\UnifiedGigs\app.py", line 388, in <module>
+    jobs = cached_scrape_jobs(**params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\START-UP\UnifiedGigs\cache.py", line 41, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\START-UP\UnifiedGigs\app.py", line 330, in cached_scrape_jobs
+    return scrape_jobs(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\START-UP\UnifiedGigs\__init__.py", line 129, in scrape_jobs
+    site_value, scraped_data = future.result()
+                               ^^^^^^^^^^^^^^^
+  File "C:\Users\evans\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evans\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\evans\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\START-UP\UnifiedGigs\__init__.py", line 120, in worker
+    site_val, scraped_info = scrape_site(site)
+                             ^^^^^^^^^^^^^^^^^
+  File "D:\START-UP\UnifiedGigs\__init__.py", line 111, in scrape_site
+    scraped_data: JobResponse = scraper.scrape(scraper_input)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\START-UP\UnifiedGigs\glassdoor\__init__.py", line 71, in scrape
+    self.base_url = self.scraper_input.country.get_glassdoor_url()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_glassdoor_url'
+2026-01-01 22:52:18,119 - UnifiedGigs - INFO - Running job search with params: {'site_name': ['linkedin', 'google'], 'search_term': 'remote web designer OR UI/UX designer OR user interface designer OR user experience designer', 'google_search_term': 'remote Web Design jobs since yesterday', 'location': '', 'results_wanted': 20, 'country_indeed': None, 'hours_old': 24, 'linkedin_fetch_description': False, 'is_remote': True, 'job_type': 'fulltime'}
+2026-01-01 22:52:27,203 - UnifiedGigs - INFO - Found 20 jobs
+2026-01-01 22:53:30,709 - UnifiedGigs - INFO - Running job search with params: {'site_name': ['linkedin', 'google', 'glassdoor'], 'search_term': 'remote web designer OR UI/UX designer OR user interface designer OR user experience designer', 'google_search_term': 'remote Web Design jobs since yesterday', 'location': '', 'results_wanted': 20, 'country_indeed': None, 'hours_old': 24, 'linkedin_fetch_description': False, 'is_remote': True, 'job_type': 'fulltime'}
+2026-01-01 22:53:42,074 - UnifiedGigs - ERROR - Error in job search: 'NoneType' object has no attribute 'get_glassdoor_url'
+Traceback (most recent call last):
+  File "D:\START-UP\UnifiedGigs\app.py", line 330, in cached_scrape_jobs
+    return scrape_jobs(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\START-UP\UnifiedGigs\__init__.py", line 129, in scrape_jobs
+    site_value, scraped_data = future.result()
+                               ^^^^^^^^^^^^^^^
+  File "C:\Users\evans\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evans\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\evans\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\START-UP\UnifiedGigs\__init__.py", line 120, in worker
+    site_val, scraped_info = scrape_site(site)
+                             ^^^^^^^^^^^^^^^^^
+  File "D:\START-UP\UnifiedGigs\__init__.py", line 111, in scrape_site
+    scraped_data: JobResponse = scraper.scrape(scraper_input)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\START-UP\UnifiedGigs\glassdoor\__init__.py", line 71, in scrape
+    self.base_url = self.scraper_input.country.get_glassdoor_url()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_glassdoor_url'
+2026-01-01 22:53:42,075 - UnifiedGigs - ERROR - An error occurred during the job search: 'NoneType' object has no attribute 'get_glassdoor_url'
+Traceback (most recent call last):
+  File "D:\START-UP\UnifiedGigs\app.py", line 388, in <module>
+    jobs = cached_scrape_jobs(**params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\START-UP\UnifiedGigs\cache.py", line 41, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\START-UP\UnifiedGigs\app.py", line 330, in cached_scrape_jobs
+    return scrape_jobs(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\START-UP\UnifiedGigs\__init__.py", line 129, in scrape_jobs
+    site_value, scraped_data = future.result()
+                               ^^^^^^^^^^^^^^^
+  File "C:\Users\evans\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evans\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\evans\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\START-UP\UnifiedGigs\__init__.py", line 120, in worker
+    site_val, scraped_info = scrape_site(site)
+                             ^^^^^^^^^^^^^^^^^
+  File "D:\START-UP\UnifiedGigs\__init__.py", line 111, in scrape_site
+    scraped_data: JobResponse = scraper.scrape(scraper_input)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\START-UP\UnifiedGigs\glassdoor\__init__.py", line 71, in scrape
+    self.base_url = self.scraper_input.country.get_glassdoor_url()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get_glassdoor_url'
+2026-01-01 22:57:57,355 - UnifiedGigs - INFO - Found 1430 jobs
+2026-01-01 22:57:57,355 - UnifiedGigs - ERROR - An error occurred during the job search: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "D:\START-UP\UnifiedGigs\app.py", line 393, in <module>
+    jobs = jobs[jobs['is_remote'] == True]
+                ~~~~^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'

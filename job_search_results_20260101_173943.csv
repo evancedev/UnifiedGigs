@@ -1,0 +1,890 @@
+"id","site","job_url","job_url_direct","title","company","location","date_posted","job_type","salary_source","interval","min_amount","max_amount","currency","is_remote","job_level","job_function","listing_type","emails","description","company_industry","company_url","company_logo","company_url_direct","company_addresses","company_num_employees","company_revenue","company_description","skills","experience_range","company_rating","company_reviews_count","vacancy_count","work_from_home_type"
+"in-dce0e205837e39a6","indeed","https://www.indeed.com/viewjob?jk=dce0e205837e39a6","https://tnl2.jometer.com/v2/job?jz=5tptp9322e27dcb3df247b984f14faa607260TAAAKAAAAABQ&utm_source=Joveo_Indeed%20Organic&utm_campaign=Enabling%20Functions_Information%20Technology%202025&source=jobboard_Indeed%20Organic_auto","Associate Director of Cloud","Bristol Myers Squibb","Princeton, NJ, US","2026-01-01","fulltime","","","","","",True,"","","","adastaffingsupport@bms.com, TAEnablement@bms.com","**Working with Us**  
+Challenging. Meaningful. Life-changing. Those aren't words that are usually associated with a job. But working at Bristol Myers Squibb is anything but usual. Here, uniquely interesting work happens every day, in every department. From optimizing a production line to the latest breakthroughs in cell therapy, this is work that transforms the lives of patients, and the careers of those who do it. You'll get the chance to grow and thrive through opportunities uncommon in scale and scope, alongside high-achieving teams. Take your career farther than you thought possible.  
+  
+Bristol Myers Squibb recognizes the importance of balance and flexibility in our work environment. We offer a wide variety of competitive benefits, services and programs that provide our employees with the resources to pursue their goals, both at work and in their personal lives. Read more: careers.bms.com/working-with-us .  
+  
+**Position Summary**  
+  
+The Associate Director (Cloud Architect) is an open position for **core technical leadership role** and a 100% focused on architecting, developing, and automating the most critical components of our AWS Cloud Platform and application delivery pipeline. This role requires **at least 10 years of hands-on experience** in application development, deep cloud expertise, and a **strong product development mindset**-treating the cloud platform and developer toolchain as internal products with measurable user experience and continuous iteration. You will be the authoritative expert defining standards for IaC, CI/CD, and SecDevOps using **GitHub** as the primary source of truth. A key deliverable is driving innovation by incorporating **AI/ML tools into the Software Development Lifecycle (SDLC)** to enhance security, quality, and velocity across all application teams. Success in this role is measured strictly by the successful design, implementation, and scalability of complex, production-ready cloud solutions.  
+  
+**Key Responsibilities:**  
+  
+**I. Deep Technical Design & Hands-On Engineering**
+
+* **AWS Foundational Architecture:** Serve as the technical owner and primary builder of the AWS Landing Zone architecture (Control Tower, AWS Organizations), ensuring high availability, network resilience (Transit Gateway), and cost efficiency.
+* **Expert IaC Development:** Author and maintain advanced, enterprise-grade Infrastructure-as-Code modules using **CloudFormation** and version control with **GitHub**, promoting a strict GitOps model for infrastructure delivery.
+* **Scalable Application Architecture:** **Architect, design, and validate highly scalable, resilient, and cost-efficient cloud-native architectures** for enterprise applications, enforcing best practices like serverless-first, auto-scaling, and multi-AZ deployments. Design application for disaster recovery in IaaS Cloud platform.
+* **Modern Application Development:** Leverage **10+ years of application development experience** to build robust, scalable, and secure cloud-native solutions (Cloud Front, Lambda, API Gateway, Elastic Beanstalk, ECS, DynamoDB, S3), focusing on performance and operational excellence.
+* **SecDevOps Automation:** Embed security automation at every phase of the CI/CD pipeline, implementing policy-as-code (e.g., OPA) and automated compliance checks without sacrificing developer velocity. Well knowledge around usage of AWS Config, Identity and Access management Roles and Policies , Organization Policies etc.
+
+**II. Product Mindset & Innovation**
+
+* **Product Development Approach:** Own the cloud platform and developer toolchain as a product, focusing on improving developer experience (DX), reducing friction, and delivering measurable time-to-market improvements for application teams.
+* **AI-Powered SDLC Integration:** Lead the strategy and technical integration of emerging technologies (e.g., Generative AI for code generation, intelligent testing, automated security patch recommendations) to modernize our internal SDLC toolchain.
+* **CI/CD Mastery:** Architect and optimize the enterprise CI/CD platform (leveraging **GitHub Actions** or equivalent tooling) to enable true continuous delivery workflows.
+* **FinOps & Resource Optimization:** Develop automated mechanisms and reference architectures to optimize AWS spend and drive utilization efficiency across all business units.
+
+**III. Technical Governance & Mentorship**
+
+* **Technical Standard Bearer:** Establish and enforce technical standards, design patterns, and quality gates for cloud adoption, ensuring consistency and adherence to regulatory compliance.
+* **Architecture Review:** Lead the technical review process for major cloud projects, ensuring all solutions are scalable, reliable, and adhere to defined security baselines.
+
+**Qualifications & Experience:**  
+  
+**Required Experience**  
+  
+**Degree**  
+  
+Minimum BS level technical degree required; Computer Science or Engineering background preferred  
+  
+**Experience**  
+  
+**10+ years** of progressive experience in IT/Software Development, with **7+ years** dedicated to large-scale, enterprise AWS engineering and DevOps delivery.  
+  
+**Core Skills**  
+  
+Expert-level proficiency in **Python, NodeJS** (or other major programming language) and **CloudFormation (Other IaC tools)** for building production systems.  
+  
+**Version Control**  
+  
+**Expert-level knowledge of GitHub** for code management, branching strategies and leveraging features like Actions or Advanced Security.  
+  
+**Certification**  
+  
+**Preferred:** Holds an active **AWS Certified Solutions Architect - Professional** and/or **AWS Certified DevOps Engineer - Professional** certification.  
+  
+**Product Focus**  
+  
+Proven ability to define and deliver platform capabilities with a **product development mindset**, emphasizing user stories (developer needs) and measurable outcomes (reduced deployment time, increased security coverage).  
+  
+**Technical Depth**  
+  
+Demonstrated expertise in designing and debugging complex IAM policies, network architectures, and troubleshooting high-volume, distributed cloud systems.  
+  
+If you come across a role that intrigues you but doesn't perfectly line up with your resume, we encourage you to apply anyway. You could be one step away from work that will transform your life and career.
+  
+  
+**Compensation Overview:**  
+  
+The starting compensation range(s) for this role are listed above for a full-time employee (FTE) basis. Additional incentive cash and stock opportunities (based on eligibility) may be available. The starting pay rate takes into account characteristics of the job, such as required skills, where the job is performed, the employee's work schedule, job-related knowledge, and experience. Final, individual compensation will be decided based on demonstrated experience.
+  
+  
+Eligibility for specific benefits listed on our careers site may vary based on the job and location. For more on benefits, please visit https://careers.bms.com/life-at-bms/.
+  
+  
+Benefit offerings are subject to the terms and conditions of the applicable plans in effect at the time and may require enrollment. Our benefits include:
+
+* **Health Coverage:** Medical, pharmacy, dental, and vision care.
+* **Wellbeing Support:** Programs such as BMS Well-Being Account, BMS Living Life Better, and Employee Assistance Programs (EAP).
+* **Financial Well-being and Protection:** 401(k) plan, short- and long-term disability, life insurance, accident insurance, supplemental health insurance, business travel protection, personal liability protection, identity theft benefit, legal support, and survivor support.
+
+**Work-life benefits include:**  
+  
+Paid Time Off
+
+* US Exempt Employees: flexible time off (unlimited, with manager approval, 11 paid national holidays (not applicable to employees in Phoenix, AZ, Puerto Rico or Rayzebio employees)
+* Phoenix, AZ, Puerto Rico and Rayzebio Exempt, Non-Exempt, Hourly Employees: 160 hours annual paid vacation for new hires with manager approval, 11 national holidays, and 3 optional holidays
+
+Based on eligibility\\*, additional time off for employees may include unlimited paid sick time, up to 2 paid volunteer days per year, summer hours flexibility, leaves of absence for medical, personal, parental, caregiver, bereavement, and military needs and an annual Global Shutdown between Christmas and New Years Day.
+  
+  
+All global employees full and part-time who are actively employed at and paid directly by BMS at the end of the calendar year are eligible to take advantage of the Global Shutdown.  
+  
+
+* **Eligibility Disclosure:** T he summer hours program is for United States (U.S.) office-based employees due to the unique nature of their work. Summer hours are generally not available for field sales and manufacturing operations and may also be limited for the capability centers. Employees in remote-by-design or lab-based roles may be eligible for summer hours, depending on the nature of their work, and should discuss eligibility with their manager. Employees covered under a collective bargaining agreement should consult that document to determine if they are eligible. Contractors, leased workers and other service providers are not eligible to participate in the program.
+
+  
+**Uniquely Interesting Work, Life-changing Careers**  
+With a single vision as inspiring as Transforming patients' lives through science™ , every BMS employee plays an integral role in work that goes far beyond ordinary. Each of us is empowered to apply our individual talents and unique perspectives in a supportive culture, promoting global participation in clinical trials, while our shared values of passion, innovation, urgency, accountability, inclusion and integrity bring out the highest potential of each of our colleagues.  
+  
+**On-site Protocol**  
+  
+BMS has an occupancy structure that determines where an employee is required to conduct their work. This structure includes site-essential, site-by-design, field-based and remote-by-design jobs. The occupancy type that you are assigned is determined by the nature and responsibilities of your role:
+  
+  
+Site-essential roles require 100% of shifts onsite at your assigned facility. Site-by-design roles may be eligible for a hybrid work model with at least 50% onsite at your assigned facility. For these roles, onsite presence is considered an essential job function and is critical to collaboration, innovation, productivity, and a positive Company culture. For field-based and remote-by-design roles the ability to physically travel to visit customers, patients or business partners and to attend meetings on behalf of BMS as directed is an essential job function.
+  
+  
+**Supporting People with Disabilities**  
+  
+BMS is dedicated to ensuring that people with disabilities can excel through a transparent recruitment process, reasonable workplace accommodations/adjustments and ongoing support in their roles. Applicants can request a reasonable workplace accommodation/adjustment prior to accepting a job offer. If you require reasonable accommodations/adjustments in completing this application, or in any part of the recruitment process, direct your inquiries to adastaffingsupport@bms.com . Visit careers.bms.com/ eeo -accessibility to access our complete Equal Employment Opportunity statement.
+  
+  
+**Candidate Rights**  
+  
+BMS will consider for employment qualified applicants with arrest and conviction records, pursuant to applicable laws in your area.
+  
+  
+If you live in or expect to work from Los Angeles County if hired for this position, please visit this page for important additional information: https://careers.bms.com/california-residents/
+  
+  
+**Data Protection**  
+  
+We will never request payments, financial information, or social security numbers during our application or recruitment process. Learn more about protecting yourself at https://careers.bms.com/fraud-protection .  
+  
+Any data processed in connection with role applications will be treated in accordance with applicable data privacy policies and regulations.  
+  
+If you believe that the job posting is missing information required by local law or incorrect in any way, please contact BMS at TAEnablement@bms.com . Please provide the Job Title and Requisition number so we can review. Communications related to your application should not be sent to this email and you will not receive a response. Inquiries related to the status of your application should be directed to Chat with Ripley.
+  
+  
+R1597883 : Associate Director of Cloud","","https://www.indeed.com/cmp/Bristol-Myers-Squibb","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/21ef0bbc93036e611cfae57a9589d55a","http://www.bms.com","New York, NY","10,000+","more than $10B (USD)","Bristol Myers Squibb is a leading global biopharma company focused on discovering, developing and delivering innovative medicines for patients with serious diseases.","","","","","",""
+"in-c2a429758ecf32fb","indeed","https://www.indeed.com/viewjob?jk=c2a429758ecf32fb","https://tnl2.jometer.com/v2/job?jz=5tptp30f62367f208321f9ea355ee5ae3a82cTAAAKAAAAABQ&utm_source=Joveo_Indeed%20Organic&utm_campaign=Enabling%20Functions_Information%20Technology%202025&source=jobboard_Indeed%20Organic_auto","Associate Director, Cloud and Data Engineering","Bristol Myers Squibb","Princeton, NJ, US","2026-01-01","fulltime","","","","","",True,"","","","adastaffingsupport@bms.com, TAEnablement@bms.com","**Working with Us**  
+Challenging. Meaningful. Life-changing. Those aren't words that are usually associated with a job. But working at Bristol Myers Squibb is anything but usual. Here, uniquely interesting work happens every day, in every department. From optimizing a production line to the latest breakthroughs in cell therapy, this is work that transforms the lives of patients, and the careers of those who do it. You'll get the chance to grow and thrive through opportunities uncommon in scale and scope, alongside high-achieving teams. Take your career farther than you thought possible.  
+  
+Bristol Myers Squibb recognizes the importance of balance and flexibility in our work environment. We offer a wide variety of competitive benefits, services and programs that provide our employees with the resources to pursue their goals, both at work and in their personal lives. Read more: careers.bms.com/working-with-us .  
+  
+The Associate Director (Cloud Architect) is an open position for **core technical leadership role** and a 100% focused on architecting, developing, and automating the most critical components of our AWS Cloud Platform and application delivery pipeline. This role requires **at least 10 years of hands-on experience** in application development, deep cloud expertise, and a **strong product development mindset**-treating the cloud platform and developer toolchain as internal products with measurable user experience and continuous iteration. You will be the authoritative expert defining standards for IaC, CI/CD, and SecDevOps using **GitHub** as the primary source of truth. A key deliverable is driving innovation by incorporating **AI/ML tools into the Software Development Lifecycle (SDLC)** to enhance security, quality, and velocity across all application teams. Success in this role is measured strictly by the successful design, implementation, and scalability of complex, production-ready cloud solutions.  
+  
+**Key Responsibilities:**  
+  
+**I. Deep Technical Design & Hands-On Engineering**
+
+* **AWS Foundational Architecture:** Serve as the technical owner and primary builder of the AWS Landing Zone architecture (Control Tower, AWS Organizations), ensuring high availability, network resilience (Transit Gateway), and cost efficiency.
+* **Expert IaC Development:** Author and maintain advanced, enterprise-grade Infrastructure-as-Code modules using **CloudFormation** and version control with **GitHub**, promoting a strict GitOps model for infrastructure delivery.
+* **Scalable Application Architecture:** **Architect, design, and validate highly scalable, resilient, and cost-efficient cloud-native architectures** for enterprise applications, enforcing best practices like serverless-first, auto-scaling, and multi-AZ deployments. Design application for disaster recovery in IaaS Cloud platform.
+* **Modern Application Development:** Leverage **10+ years of application development experience** to build robust, scalable, and secure cloud-native solutions (Cloud Front, Lambda, API Gateway, Elastic Beanstalk, ECS, DynamoDB, S3), focusing on performance and operational excellence.
+* **SecDevOps Automation:** Embed security automation at every phase of the CI/CD pipeline, implementing policy-as-code (e.g., OPA) and automated compliance checks without sacrificing developer velocity. Well knowledge around usage of AWS Config, Identity and Access management Roles and Policies , Organization Policies etc.
+
+**II. Product Mindset & Innovation**
+
+* **Product Development Approach:** Own the cloud platform and developer toolchain as a product, focusing on improving developer experience (DX), reducing friction, and delivering measurable time-to-market improvements for application teams.
+* **AI-Powered SDLC Integration:** Lead the strategy and technical integration of emerging technologies (e.g., Generative AI for code generation, intelligent testing, automated security patch recommendations) to modernize our internal SDLC toolchain.
+* **CI/CD Mastery:** Architect and optimize the enterprise CI/CD platform (leveraging **GitHub Actions** or equivalent tooling) to enable true continuous delivery workflows.
+* **FinOps & Resource Optimization:** Develop automated mechanisms and reference architectures to optimize AWS spend and drive utilization efficiency across all business units.
+
+**III. Technical Governance & Mentorship**
+
+* **Technical Standard Bearer:** Establish and enforce technical standards, design patterns, and quality gates for cloud adoption, ensuring consistency and adherence to regulatory compliance.
+* **Architecture Review:** Lead the technical review process for major cloud projects, ensuring all solutions are scalable, reliable, and adhere to defined security baselines.
+
+**Qualifications & Experience:**  
+  
+**Required Experience**  
+  
+Minimum BS level technical degree required; Computer Science or Engineering background preferred  
+  
+**10+ years** of progressive experience in IT/Software Development, with **7+ years** dedicated to large-scale, enterprise AWS engineering and DevOps delivery.  
+  
+**Core Skills**  
+  
+Expert-level proficiency in **Python, NodeJS** (or other major programming language) and **CloudFormation (Other IaC tools)** for building production systems.  
+  
+**Version Control**  
+  
+**Expert-level knowledge of GitHub** for code management, branching strategies and leveraging features like Actions or Advanced Security.  
+  
+**Certification**  
+  
+**Preferred:** Holds an active **AWS Certified Solutions Architect - Professional** and/or **AWS Certified DevOps Engineer - Professional** certification.  
+  
+**Product Focus**  
+  
+Proven ability to define and deliver platform capabilities with a **product development mindset**, emphasizing user stories (developer needs) and measurable outcomes (reduced deployment time, increased security coverage).  
+  
+**Technical Depth**  
+  
+Demonstrated expertise in designing and debugging complex IAM policies, network architectures, and troubleshooting high-volume, distributed cloud systems.  
+  
+If you come across a role that intrigues you but doesn't perfectly line up with your resume, we encourage you to apply anyway. You could be one step away from work that will transform your life and career.
+  
+  
+**Compensation Overview:**  
+  
+The starting compensation range(s) for this role are listed above for a full-time employee (FTE) basis. Additional incentive cash and stock opportunities (based on eligibility) may be available. The starting pay rate takes into account characteristics of the job, such as required skills, where the job is performed, the employee's work schedule, job-related knowledge, and experience. Final, individual compensation will be decided based on demonstrated experience.
+  
+  
+Eligibility for specific benefits listed on our careers site may vary based on the job and location. For more on benefits, please visit https://careers.bms.com/life-at-bms/.
+  
+  
+Benefit offerings are subject to the terms and conditions of the applicable plans in effect at the time and may require enrollment. Our benefits include:
+
+* **Health Coverage:** Medical, pharmacy, dental, and vision care.
+* **Wellbeing Support:** Programs such as BMS Well-Being Account, BMS Living Life Better, and Employee Assistance Programs (EAP).
+* **Financial Well-being and Protection:** 401(k) plan, short- and long-term disability, life insurance, accident insurance, supplemental health insurance, business travel protection, personal liability protection, identity theft benefit, legal support, and survivor support.
+
+**Work-life benefits include:**  
+  
+Paid Time Off
+
+* US Exempt Employees: flexible time off (unlimited, with manager approval, 11 paid national holidays (not applicable to employees in Phoenix, AZ, Puerto Rico or Rayzebio employees)
+* Phoenix, AZ, Puerto Rico and Rayzebio Exempt, Non-Exempt, Hourly Employees: 160 hours annual paid vacation for new hires with manager approval, 11 national holidays, and 3 optional holidays
+
+Based on eligibility\\*, additional time off for employees may include unlimited paid sick time, up to 2 paid volunteer days per year, summer hours flexibility, leaves of absence for medical, personal, parental, caregiver, bereavement, and military needs and an annual Global Shutdown between Christmas and New Years Day.
+  
+  
+All global employees full and part-time who are actively employed at and paid directly by BMS at the end of the calendar year are eligible to take advantage of the Global Shutdown.  
+  
+
+* **Eligibility Disclosure:** T he summer hours program is for United States (U.S.) office-based employees due to the unique nature of their work. Summer hours are generally not available for field sales and manufacturing operations and may also be limited for the capability centers. Employees in remote-by-design or lab-based roles may be eligible for summer hours, depending on the nature of their work, and should discuss eligibility with their manager. Employees covered under a collective bargaining agreement should consult that document to determine if they are eligible. Contractors, leased workers and other service providers are not eligible to participate in the program.
+
+  
+**Uniquely Interesting Work, Life-changing Careers**  
+With a single vision as inspiring as Transforming patients' lives through science™ , every BMS employee plays an integral role in work that goes far beyond ordinary. Each of us is empowered to apply our individual talents and unique perspectives in a supportive culture, promoting global participation in clinical trials, while our shared values of passion, innovation, urgency, accountability, inclusion and integrity bring out the highest potential of each of our colleagues.  
+  
+**On-site Protocol**  
+  
+BMS has an occupancy structure that determines where an employee is required to conduct their work. This structure includes site-essential, site-by-design, field-based and remote-by-design jobs. The occupancy type that you are assigned is determined by the nature and responsibilities of your role:
+  
+  
+Site-essential roles require 100% of shifts onsite at your assigned facility. Site-by-design roles may be eligible for a hybrid work model with at least 50% onsite at your assigned facility. For these roles, onsite presence is considered an essential job function and is critical to collaboration, innovation, productivity, and a positive Company culture. For field-based and remote-by-design roles the ability to physically travel to visit customers, patients or business partners and to attend meetings on behalf of BMS as directed is an essential job function.
+  
+  
+**Supporting People with Disabilities**  
+  
+BMS is dedicated to ensuring that people with disabilities can excel through a transparent recruitment process, reasonable workplace accommodations/adjustments and ongoing support in their roles. Applicants can request a reasonable workplace accommodation/adjustment prior to accepting a job offer. If you require reasonable accommodations/adjustments in completing this application, or in any part of the recruitment process, direct your inquiries to adastaffingsupport@bms.com . Visit careers.bms.com/ eeo -accessibility to access our complete Equal Employment Opportunity statement.
+  
+  
+**Candidate Rights**  
+  
+BMS will consider for employment qualified applicants with arrest and conviction records, pursuant to applicable laws in your area.
+  
+  
+If you live in or expect to work from Los Angeles County if hired for this position, please visit this page for important additional information: https://careers.bms.com/california-residents/
+  
+  
+**Data Protection**  
+  
+We will never request payments, financial information, or social security numbers during our application or recruitment process. Learn more about protecting yourself at https://careers.bms.com/fraud-protection .  
+  
+Any data processed in connection with role applications will be treated in accordance with applicable data privacy policies and regulations.  
+  
+If you believe that the job posting is missing information required by local law or incorrect in any way, please contact BMS at TAEnablement@bms.com . Please provide the Job Title and Requisition number so we can review. Communications related to your application should not be sent to this email and you will not receive a response. Inquiries related to the status of your application should be directed to Chat with Ripley.
+  
+  
+R1597966 : Associate Director, Cloud Architect - Jitendra Kumar Dash","","https://www.indeed.com/cmp/Bristol-Myers-Squibb","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/21ef0bbc93036e611cfae57a9589d55a","http://www.bms.com","New York, NY","10,000+","more than $10B (USD)","Bristol Myers Squibb is a leading global biopharma company focused on discovering, developing and delivering innovative medicines for patients with serious diseases.","","","","","",""
+"in-55e5a2a557333288","indeed","https://www.indeed.com/viewjob?jk=55e5a2a557333288","https://www.amazon.jobs/jobs/3143722/sr-construction-manager-gems-nacf-design-and-construction-?cmpid=DA_INAD200785B","Sr. Construction Manager, GEMS NACF Design and Construction","Amazon.com","New York, NY, US","2025-12-09","fulltime","direct_data","yearly",81200.0,181600.0,"USD",True,"","","","","**DESCRIPTION**
+---------------
+
+Amazon opened its remote doors in 1995 and strives to be the world’s most customer-centric company, where customers can find and discover anything they might want to buy online.  
+  
+The North American Construction team is looking for a Construction Manager who will be a key part of the Operations Team and will be responsible for project managing new building planning, design and construction. This will include the extension of existing facilities and any new sites. The Construction Manager will play an integral role in the development and implementation of the North American facility network infrastructure. This position will analyze and evaluate different facility scenarios and build-out designs. In addition, the Construction Manager will support the standardization of the technical and facility related processes and systems.  
+  
+This opportunity combines construction engineering, planning, project management, facilities management, and contract management.  
+  
+This role requires up to 60% regional travel and availability to work from a corporate office when not traveling. Candidates should either live near or be willing to relocate within a reasonable commuting distance of the office. Relocation assistance may be provided.  
+  
+Key job responsibilities  
+
+* Overseeing construction engineering, planning, and design for the North American facility network infrastructure and other new or expansion projects
+* Responsible for project support on new fulfillment network buildings and additional capacity requirements within existing North America Fulfillment Centers, Deliver Stations, or Sort Centers
+* Lead construction scope review and development with internal operational customers, and facilitate engineering and design efforts on new and remodel projects
+* Responsible for managing multiple large-sized ($100M+) projects simultaneously
+* Work independently in the assigned regional area with minimal direction from leadership
+* Prepare reports, specifications, technical analysis to fully define the design requirements, equipment and services required on capacity expansion and remodel projects
+* Oversee and facilitate execution of ground up shell, tenant improvement (TI), and engineering deployment for new facilities within the network
+* Provide technical direction concerning engineering design / AutoCAD, building design, layouts, build details, schedules and materials in accordance to North American Customer Fulfillment (NACF) design parameters
+* Survey facilities, develop and document procedures to audit the facility, provide evaluations and analysis, and recommend solutions to facility infrastructure, safety and security problems involving facilities and people
+* Negotiate contracts with General Contractors and trade contractors and present formal documentation for approval when required
+* Ensure that contracts are fit for purpose, cost effective and incorporate appropriate Service Level Agreements
+* Provide overall site management, coordination, planning, specification of business proposals and coordination of subcontractors
+* Facilitate and team with others on due diligence evaluation of new opportunities
+* Facilitate and team with internal stakeholders regarding engineering buildouts, IT readiness, and turnover to operational groups
+* Partner with teams tasked with transition of base building management and oversight of all turnover documentation
+* Coach and guide all project teams (developers, design engineers, general contractors, sub-contractors, internal stakeholders) throughout the full project lifecycle
+* Ensure that contracted resources deliver work to meet duration and quality targets, addressing and ensuring the correction of under-performance issues
+* Audit contractors to check that the skills and competences of contract labor are appropriate to need and they are fit to undertake the work on which they will be deployed
+* Inform contractors of projected changes in resource or work demand so that they can take appropriate action
+* Establish and operate the information systems necessary for effective scheduling and recording of contract work
+* Support contractors’ work and help them to achieve higher performance level
+* Oversee multiple projects in various locations simultaneously
+* Review of designs for conformance to current building specifications
+* Provide critical review of current design standards to identify value engineering and design enhancement opportunities to be considered by internal engineering and schematic design partners
+* Comprehensive budget tracking, forecasting, and management of assigned expansion, remodel, and new build projects
+* Receipt, review, and analysis of all proposed cost and time change requests as presented by external project teams
+* Review and guide internally requested changes for validity, impact, and ensure timely and cost sensitive incorporation once approved
+* Lead and/or assist in negotiations with appropriate authority having jurisdiction (AHJ) entities as required
+* Positive, clear, concise, and transparent cross team communication for all aspects of project delivery
+* The role will include upwards of 60% travel regionally, with the potential of traveling to all North America locations based on the business needs
+
+  
+A day in the life  
+Benefits Summary:  
+Amazon offers a full range of benefits that support you and eligible family members, including domestic partners and their children. Benefits can vary by location, the number of regularly scheduled hours you work, length of employment, and job status such as seasonal or temporary employment. The benefits that generally apply to regular, full-time employees include:  
+1. Medical, Dental, and Vision Coverage  
+2. Maternity and Parental Leave Options  
+3. Paid Time Off (PTO)  
+4. 401(k) Plan  
+  
+If you are not sure that every qualification on the list above describes you exactly, we'd still love to hear from you! At Amazon, we value people with unique backgrounds, experiences, and skillsets. If you’re passionate about this role and want to make an impact on a global scale, please apply!
+
+**BASIC QUALIFICATIONS**
+------------------------
+
+* 7+ years of project management, real estate development, architecture/design experience
+* Bachelor's degree
+
+**PREFERRED QUALIFICATIONS**
+----------------------------
+
+* Experience in project management, real estate development, architecture/design
+
+  
+Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.  
+  
+Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.  
+  
+Our compensation reflects the cost of labor across several US geographic markets. The base pay for this position ranges from $81,200/year in our lowest geographic market up to $181,600/year in our highest geographic market. Pay is based on a number of factors including market location and may vary depending on job-related knowledge, skills, and experience. Amazon is a total compensation company. Dependent on the position offered, equity, sign-on payments, and other forms of compensation may be provided as part of a total compensation package, in addition to a full range of medical, financial, and/or other benefits. For more information, please visit https://www.aboutamazon.com/workplace/employee-benefits. This position will remain posted until filled. Applicants should apply via our internal or external career site.","Internet And Software","https://www.indeed.com/cmp/Amazon.com","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/3e9d43f5c277de169808abdcaf49ba2c","https://www.amazon.jobs","440 Terry Ave N, Seattle, WA, United States, Washington","10,000+","more than $10B (USD)","Our mission is to be Earth's most customer-centric company.","","","","","",""
+"in-6b4e39dd60b2b3b7","indeed","https://www.indeed.com/viewjob?jk=6b4e39dd60b2b3b7","https://www.amazon.jobs/jobs/3143717/sr-construction-manager-gems-design-and-construction-?cmpid=DA_INAD200785B","Sr. Construction Manager, GEMS Design and Construction","Amazon.com","New York, NY, US","2025-12-09","fulltime","direct_data","yearly",81200.0,181600.0,"USD",True,"","","","","**DESCRIPTION**
+---------------
+
+Amazon opened its remote doors in 1995 and strives to be the world’s most customer-centric company, where customers can find and discover anything they might want to buy online.  
+  
+The North American Construction team is looking for a Construction Manager who will be a key part of the Operations Team and will be responsible for project managing new building planning, design and construction. This will include the extension of existing facilities and any new sites. The Construction Manager will play an integral role in the development and implementation of the North American facility network infrastructure. This position will analyze and evaluate different facility scenarios and build-out designs. In addition, the Construction Manager will support the standardization of the technical and facility related processes and systems.  
+  
+This opportunity combines construction engineering, planning, project management, facilities management, and contract management.  
+  
+This role requires up to 60% regional travel and availability to work from a corporate office when not traveling. Candidates should either live near or be willing to relocate within a reasonable commuting distance of the office. Relocation assistance may be provided.  
+  
+Key job responsibilities  
+
+* Overseeing construction engineering, planning, and design for the North American facility network infrastructure and other new or expansion projects
+* Responsible for project support on new fulfillment network buildings and additional capacity requirements within existing North America Fulfillment Centers, Deliver Stations, or Sort Centers
+* Lead construction scope review and development with internal operational customers, and facilitate engineering and design efforts on new and remodel projects
+* Responsible for managing multiple large-sized ($100M+) projects simultaneously
+* Work independently in the assigned regional area with minimal direction from leadership
+* Prepare reports, specifications, technical analysis to fully define the design requirements, equipment and services required on capacity expansion and remodel projects
+* Oversee and facilitate execution of ground up shell, tenant improvement (TI), and engineering deployment for new facilities within the network
+* Provide technical direction concerning engineering design / AutoCAD, building design, layouts, build details, schedules and materials in accordance to North American Customer Fulfillment (NACF) design parameters
+* Survey facilities, develop and document procedures to audit the facility, provide evaluations and analysis, and recommend solutions to facility infrastructure, safety and security problems involving facilities and people
+* Negotiate contracts with General Contractors and trade contractors and present formal documentation for approval when required
+* Ensure that contracts are fit for purpose, cost effective and incorporate appropriate Service Level Agreements
+* Provide overall site management, coordination, planning, specification of business proposals and coordination of subcontractors
+* Facilitate and team with others on due diligence evaluation of new opportunities
+* Facilitate and team with internal stakeholders regarding engineering buildouts, IT readiness, and turnover to operational groups
+* Partner with teams tasked with transition of base building management and oversight of all turnover documentation
+* Coach and guide all project teams (developers, design engineers, general contractors, sub-contractors, internal stakeholders) throughout the full project lifecycle
+* Ensure that contracted resources deliver work to meet duration and quality targets, addressing and ensuring the correction of under-performance issues
+* Audit contractors to check that the skills and competences of contract labor are appropriate to need and they are fit to undertake the work on which they will be deployed
+* Inform contractors of projected changes in resource or work demand so that they can take appropriate action
+* Establish and operate the information systems necessary for effective scheduling and recording of contract work
+* Support contractors’ work and help them to achieve higher performance level
+* Oversee multiple projects in various locations simultaneously
+* Review of designs for conformance to current building specifications
+* Provide critical review of current design standards to identify value engineering and design enhancement opportunities to be considered by internal engineering and schematic design partners
+* Comprehensive budget tracking, forecasting, and management of assigned expansion, remodel, and new build projects
+* Receipt, review, and analysis of all proposed cost and time change requests as presented by external project teams
+* Review and guide internally requested changes for validity, impact, and ensure timely and cost sensitive incorporation once approved
+* Lead and/or assist in negotiations with appropriate authority having jurisdiction (AHJ) entities as required
+* Positive, clear, concise, and transparent cross team communication for all aspects of project delivery
+* The role will include upwards of 60% travel regionally, with the potential of traveling to all North America locations based on the business needs
+
+  
+A day in the life  
+Benefits Summary:  
+Amazon offers a full range of benefits that support you and eligible family members, including domestic partners and their children. Benefits can vary by location, the number of regularly scheduled hours you work, length of employment, and job status such as seasonal or temporary employment. The benefits that generally apply to regular, full-time employees include:  
+1. Medical, Dental, and Vision Coverage  
+2. Maternity and Parental Leave Options  
+3. Paid Time Off (PTO)  
+4. 401(k) Plan  
+  
+If you are not sure that every qualification on the list above describes you exactly, we'd still love to hear from you! At Amazon, we value people with unique backgrounds, experiences, and skillsets. If you’re passionate about this role and want to make an impact on a global scale, please apply!
+
+**BASIC QUALIFICATIONS**
+------------------------
+
+* 7+ years of project management, real estate development, architecture/design experience
+* Bachelor's degree
+
+**PREFERRED QUALIFICATIONS**
+----------------------------
+
+* Experience in one or more of the following areas: construction or engineering project management, real estate development, or architecture/design
+
+  
+Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.  
+  
+Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.  
+  
+Our compensation reflects the cost of labor across several US geographic markets. The base pay for this position ranges from $81,200/year in our lowest geographic market up to $181,600/year in our highest geographic market. Pay is based on a number of factors including market location and may vary depending on job-related knowledge, skills, and experience. Amazon is a total compensation company. Dependent on the position offered, equity, sign-on payments, and other forms of compensation may be provided as part of a total compensation package, in addition to a full range of medical, financial, and/or other benefits. For more information, please visit https://www.aboutamazon.com/workplace/employee-benefits. This position will remain posted until filled. Applicants should apply via our internal or external career site.","Internet And Software","https://www.indeed.com/cmp/Amazon.com","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/3e9d43f5c277de169808abdcaf49ba2c","https://www.amazon.jobs","440 Terry Ave N, Seattle, WA, United States, Washington","10,000+","more than $10B (USD)","Our mission is to be Earth's most customer-centric company.","","","","","",""
+"in-5a4df4ba195c0d46","indeed","https://www.indeed.com/viewjob?jk=5a4df4ba195c0d46","https://www.amazon.jobs/jobs/3143718/sr-construction-manager-gems-nacf-design-and-construction-?cmpid=DA_INAD200785B","Sr. Construction Manager, GEMS NACF Design and Construction","Amazon.com","New York, NY, US","2025-11-21","fulltime","direct_data","yearly",81200.0,181600.0,"USD",True,"","","","","**DESCRIPTION**
+---------------
+
+Amazon opened its remote doors in 1995 and strives to be the world’s most customer-centric company, where customers can find and discover anything they might want to buy online.  
+  
+The North American Construction team is looking for a Construction Manager who will be a key part of the Operations Team and will be responsible for project managing new building planning, design and construction. This will include the extension of existing facilities and any new sites. The Construction Manager will play an integral role in the development and implementation of the North American facility network infrastructure. This position will analyze and evaluate different facility scenarios and build-out designs. In addition, the Construction Manager will support the standardization of the technical and facility related processes and systems.  
+  
+This opportunity combines construction engineering, planning, project management, facilities management, and contract management.  
+  
+This role requires 60% regional travel and availability to work from a corporate office when not traveling. Candidates should either live near or be willing to relocate within a reasonable commuting distance of the office. Relocation assistance may be provided.  
+  
+Key job responsibilities  
+
+* Overseeing construction engineering, planning, and design for the North American facility network infrastructure and other new or expansion projects
+* Responsible for project support on new fulfillment network buildings and additional capacity requirements within existing North America Fulfillment Centers, Deliver Stations, or Sort Centers
+* Lead construction scope review and development with internal operational customers, and facilitate engineering and design efforts on new and remodel projects
+* Responsible for managing multiple large-sized ($100M+) projects simultaneously
+* Work independently in the assigned regional area with minimal direction from leadership
+* Prepare reports, specifications, technical analysis to fully define the design requirements, equipment and services required on capacity expansion and remodel projects
+* Oversee and facilitate execution of ground up shell, tenant improvement (TI), and engineering deployment for new facilities within the network
+* Provide technical direction concerning engineering design / AutoCAD, building design, layouts, build details, schedules and materials in accordance to North American Customer Fulfillment (NACF) design parameters
+* Survey facilities, develop and document procedures to audit the facility, provide evaluations and analysis, and recommend solutions to facility infrastructure, safety and security problems involving facilities and people
+* Negotiate contracts with General Contractors and trade contractors and present formal documentation for approval when required
+* Ensure that contracts are fit for purpose, cost effective and incorporate appropriate Service Level Agreements
+* Provide overall site management, coordination, planning, specification of business proposals and coordination of subcontractors
+* Facilitate and team with others on due diligence evaluation of new opportunities
+* Facilitate and team with internal stakeholders regarding engineering buildouts, IT readiness, and turnover to operational groups
+* Partner with teams tasked with transition of base building management and oversight of all turnover documentation
+* Coach and guide all project teams (developers, design engineers, general contractors, sub-contractors, internal stakeholders) throughout the full project lifecycle
+* Ensure that contracted resources deliver work to meet duration and quality targets, addressing and ensuring the correction of under-performance issues
+* Audit contractors to check that the skills and competences of contract labor are appropriate to need and they are fit to undertake the work on which they will be deployed
+* Inform contractors of projected changes in resource or work demand so that they can take appropriate action
+* Establish and operate the information systems necessary for effective scheduling and recording of contract work
+* Support contractors’ work and help them to achieve higher performance level
+* Oversee multiple projects in various locations simultaneously
+* Review of designs for conformance to current building specifications
+* Provide critical review of current design standards to identify value engineering and design enhancement opportunities to be considered by internal engineering and schematic design partners
+* Comprehensive budget tracking, forecasting, and management of assigned expansion, remodel, and new build projects
+* Receipt, review, and analysis of all proposed cost and time change requests as presented by external project teams
+* Review and guide internally requested changes for validity, impact, and ensure timely and cost sensitive incorporation once approved
+* Lead and/or assist in negotiations with appropriate authority having jurisdiction (AHJ) entities as required
+* Positive, clear, concise, and transparent cross team communication for all aspects of project delivery
+
+  
+A day in the life  
+Amazon offers a full range of benefits that support you and eligible family members, including domestic partners and their children. Benefits can vary by location, the number of regularly scheduled hours you work, length of employment, and job status such as seasonal or temporary employment. The benefits that generally apply to regular, full-time employees include:  
+1. Medical, Dental, and Vision Coverage  
+2. Maternity and Parental Leave Options  
+3. Paid Time Off (PTO)  
+4. 401(k) Plan  
+  
+If you are not sure that every qualification on the list above describes you exactly, we'd still love to hear from you! At Amazon, we value people with unique backgrounds, experiences, and skillsets. If you’re passionate about this role and want to make an impact on a global scale, please apply!
+
+**BASIC QUALIFICATIONS**
+------------------------
+
+* 7+ years of project management, real estate development, architecture/design experience
+* Bachelor's degree
+
+**PREFERRED QUALIFICATIONS**
+----------------------------
+
+* Experience in project management, real estate development, architecture/design
+
+  
+Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.  
+  
+Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.  
+  
+Our compensation reflects the cost of labor across several US geographic markets. The base pay for this position ranges from $81,200/year in our lowest geographic market up to $181,600/year in our highest geographic market. Pay is based on a number of factors including market location and may vary depending on job-related knowledge, skills, and experience. Amazon is a total compensation company. Dependent on the position offered, equity, sign-on payments, and other forms of compensation may be provided as part of a total compensation package, in addition to a full range of medical, financial, and/or other benefits. For more information, please visit https://www.aboutamazon.com/workplace/employee-benefits. This position will remain posted until filled. Applicants should apply via our internal or external career site.","Internet And Software","https://www.indeed.com/cmp/Amazon.com","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/3e9d43f5c277de169808abdcaf49ba2c","https://www.amazon.jobs","440 Terry Ave N, Seattle, WA, United States, Washington","10,000+","more than $10B (USD)","Our mission is to be Earth's most customer-centric company.","","","","","",""
+"in-dcf8bc2fdfada754","indeed","https://www.indeed.com/viewjob?jk=dcf8bc2fdfada754","https://www.amazon.jobs/jobs/3143716/sr-construction-manager-gems-nacf-design-and-construction-?cmpid=DA_INAD200785B","Sr. Construction Manager, GEMS NACF Design and Construction","Amazon.com","New York, NY, US","2025-11-19","fulltime","direct_data","yearly",81200.0,181600.0,"USD",True,"","","","","**DESCRIPTION**
+---------------
+
+Amazon opened its remote doors in 1995 and strives to be the world’s most customer-centric company, where customers can find and discover anything they might want to buy online.  
+  
+The North American Construction team is looking for a Construction Manager who will be a key part of the Operations Team and will be responsible for project managing new building planning, design and construction. This will include the extension of existing facilities and any new sites. The Construction Manager will play an integral role in the development and implementation of the North American facility network infrastructure. This position will analyze and evaluate different facility scenarios and build-out designs. In addition, the Construction Manager will support the standardization of the technical and facility related processes and systems.  
+  
+This opportunity combines construction engineering, planning, project management, facilities management, and contract management.  
+  
+This role requires up to 60% regional travel and availability to work from a corporate office when not traveling. Candidates should either live near or be willing to relocate within a reasonable commuting distance of the office. Relocation assistance may be provided.  
+  
+Key job responsibilities  
+Key job responsibilities  
+
+* Overseeing construction engineering, planning, and design for the North American facility network infrastructure and other new or expansion projects
+* Responsible for project support on new fulfillment network buildings and additional capacity requirements within existing North America Fulfillment Centers, Deliver Stations, or Sort Centers
+* Lead construction scope review and development with internal operational customers, and facilitate engineering and design efforts on new and remodel projects
+* Responsible for managing multiple large-sized ($100M+) projects simultaneously
+* Work independently in the assigned regional area with minimal direction from leadership
+* Prepare reports, specifications, technical analysis to fully define the design requirements, equipment and services required on capacity expansion and remodel projects
+* Oversee and facilitate execution of ground up shell, tenant improvement (TI), and engineering deployment for new facilities within the network
+* Provide technical direction concerning engineering design / AutoCAD, building design, layouts, build details, schedules and materials in accordance to North American Customer Fulfillment (NACF) design parameters
+* Survey facilities, develop and document procedures to audit the facility, provide evaluations and analysis, and recommend solutions to facility infrastructure, safety and security problems involving facilities and people
+* Negotiate contracts with General Contractors and trade contractors and present formal documentation for approval when required
+* Ensure that contracts are fit for purpose, cost effective and incorporate appropriate Service Level Agreements
+* Provide overall site management, coordination, planning, specification of business proposals and coordination of subcontractors
+* Facilitate and team with others on due diligence evaluation of new opportunities
+* Facilitate and team with internal stakeholders regarding engineering buildouts, IT readiness, and turnover to operational groups
+* Partner with teams tasked with transition of base building management and oversight of all turnover documentation
+* Coach and guide all project teams (developers, design engineers, general contractors, sub-contractors, internal stakeholders) throughout the full project lifecycle
+* Ensure that contracted resources deliver work to meet duration and quality targets, addressing and ensuring the correction of under-performance issues
+* Audit contractors to check that the skills and competences of contract labor are appropriate to need and they are fit to undertake the work on which they will be deployed
+* Inform contractors of projected changes in resource or work demand so that they can take appropriate action
+* Establish and operate the information systems necessary for effective scheduling and recording of contract work
+* Support contractors’ work and help them to achieve higher performance level
+* Oversee multiple projects in various locations simultaneously
+* Review of designs for conformance to current building specifications
+* Provide critical review of current design standards to identify value engineering and design enhancement opportunities to be considered by internal engineering and schematic design partners
+* Comprehensive budget tracking, forecasting, and management of assigned expansion, remodel, and new build projects
+* Receipt, review, and analysis of all proposed cost and time change requests as presented by external project teams
+* Review and guide internally requested changes for validity, impact, and ensure timely and cost sensitive incorporation once approved
+* Lead and/or assist in negotiations with appropriate authority having jurisdiction (AHJ) entities as required
+* Positive, clear, concise, and transparent cross team communication for all aspects of project delivery
+
+  
+A day in the life  
+Benefits Summary:  
+Amazon offers a full range of benefits that support you and eligible family members, including domestic partners and their children. Benefits can vary by location, the number of regularly scheduled hours you work, length of employment, and job status such as seasonal or temporary employment. The benefits that generally apply to regular, full-time employees include:  
+1. Medical, Dental, and Vision Coverage  
+2. Maternity and Parental Leave Options  
+3. Paid Time Off (PTO)  
+4. 401(k) Plan  
+  
+If you are not sure that every qualification on the list above describes you exactly, we'd still love to hear from you! At Amazon, we value people with unique backgrounds, experiences, and skillsets. If you’re passionate about this role and want to make an impact on a global scale, please apply!
+
+**BASIC QUALIFICATIONS**
+------------------------
+
+* 7+ years of project management, real estate development, architecture/design experience
+* Bachelor's degree
+
+**PREFERRED QUALIFICATIONS**
+----------------------------
+
+* Experience in project management, real estate development, architecture/design
+
+  
+Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.  
+  
+Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.  
+  
+Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.  
+  
+Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.  
+  
+Our compensation reflects the cost of labor across several US geographic markets. The base pay for this position ranges from $81,200/year in our lowest geographic market up to $181,600/year in our highest geographic market. Pay is based on a number of factors including market location and may vary depending on job-related knowledge, skills, and experience. Amazon is a total compensation company. Dependent on the position offered, equity, sign-on payments, and other forms of compensation may be provided as part of a total compensation package, in addition to a full range of medical, financial, and/or other benefits. For more information, please visit https://www.aboutamazon.com/workplace/employee-benefits. This position will remain posted until filled. Applicants should apply via our internal or external career site.","Internet And Software","https://www.indeed.com/cmp/Amazon.com","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/3e9d43f5c277de169808abdcaf49ba2c","https://www.amazon.jobs","440 Terry Ave N, Seattle, WA, United States, Washington","10,000+","more than $10B (USD)","Our mission is to be Earth's most customer-centric company.","","","","","",""
+"in-806222bc48d3928e","indeed","https://www.indeed.com/viewjob?jk=806222bc48d3928e","https://www.amazon.jobs/jobs/3128224/sr-construction-manager-gems-nacf-design-and-construction-?cmpid=DA_INAD200785B","Sr. Construction Manager, GEMS NACF Design and Construction","Amazon.com","New York, NY, US","2025-11-03","fulltime","direct_data","yearly",81200.0,181600.0,"USD",True,"","","","","**DESCRIPTION**
+---------------
+
+Amazon opened its remote doors in 1995 and strives to be the world’s most customer-centric company, where customers can find and discover anything they might want to buy online.  
+  
+The North American Construction team is looking for a Construction Manager who will be a key part of the Operations Team and will be responsible for project managing new building planning, design and construction. This will include the extension of existing facilities and any new sites. The Construction Manager will play an integral role in the development and implementation of the North American facility network infrastructure. This position will analyze and evaluate different facility scenarios and build-out designs. In addition, the Construction Manager will support the standardization of the technical and facility related processes and systems.  
+  
+This opportunity combines construction engineering, planning, project management, facilities management, and contract management.  
+  
+This role requires up to 60% regional travel and availability to work from a corporate office when not traveling. Candidates should either live near or be willing to relocate within a reasonable commuting distance of the office. Relocation assistance may be provided.  
+  
+Key job responsibilities  
+
+* Overseeing construction engineering, planning, and design for the North American facility network infrastructure and other new or expansion projects
+* Responsible for project support on new fulfillment network buildings and additional capacity requirements within existing North America Fulfillment Centers, Deliver Stations, or Sort Centers
+* Lead construction scope review and development with internal operational customers, and facilitate engineering and design efforts on new and remodel projects
+* Responsible for managing multiple large-sized ($100M+) projects simultaneously
+* Work independently in the assigned regional area with minimal direction from leadership
+* Prepare reports, specifications, technical analysis to fully define the design requirements, equipment and services required on capacity expansion and remodel projects
+* Oversee and facilitate execution of ground up shell, tenant improvement (TI), and engineering deployment for new facilities within the network
+* Provide technical direction concerning engineering design / AutoCAD, building design, layouts, build details, schedules and materials in accordance to North American Customer Fulfillment (NACF) design parameters
+* Survey facilities, develop and document procedures to audit the facility, provide evaluations and analysis, and recommend solutions to facility infrastructure, safety and security problems involving facilities and people
+* Negotiate contracts with General Contractors and trade contractors and present formal documentation for approval when required
+* Ensure that contracts are fit for purpose, cost effective and incorporate appropriate Service Level Agreements
+* Provide overall site management, coordination, planning, specification of business proposals and coordination of subcontractors
+* Facilitate and team with others on due diligence evaluation of new opportunities
+* Facilitate and team with internal stakeholders regarding engineering buildouts, IT readiness, and turnover to operational groups
+* Partner with teams tasked with transition of base building management and oversight of all turnover documentation
+* Coach and guide all project teams (developers, design engineers, general contractors, sub-contractors, internal stakeholders) throughout the full project lifecycle
+* Ensure that contracted resources deliver work to meet duration and quality targets, addressing and ensuring the correction of under-performance issues
+* Audit contractors to check that the skills and competences of contract labor are appropriate to need and they are fit to undertake the work on which they will be deployed
+* Inform contractors of projected changes in resource or work demand so that they can take appropriate action
+* Establish and operate the information systems necessary for effective scheduling and recording of contract work
+* Support contractors’ work and help them to achieve higher performance level
+* Oversee multiple projects in various locations simultaneously
+* Review of designs for conformance to current building specifications
+* Provide critical review of current design standards to identify value engineering and design enhancement opportunities to be considered by internal engineering and schematic design partners
+* Comprehensive budget tracking, forecasting, and management of assigned expansion, remodel, and new build projects
+* Receipt, review, and analysis of all proposed cost and time change requests as presented by external project teams
+* Review and guide internally requested changes for validity, impact, and ensure timely and cost sensitive incorporation once approved
+* Lead and/or assist in negotiations with appropriate authority having jurisdiction (AHJ) entities as required
+* Positive, clear, concise, and transparent cross team communication for all aspects of project delivery
+* The role will include upwards of 60% travel regionally, with the potential of traveling to all North America locations based on the business needs
+
+  
+A day in the life  
+Benefits Summary:  
+Amazon offers a full range of benefits that support you and eligible family members, including domestic partners and their children. Benefits can vary by location, the number of regularly scheduled hours you work, length of employment, and job status such as seasonal or temporary employment. The benefits that generally apply to regular, full-time employees include:  
+1. Medical, Dental, and Vision Coverage  
+2. Maternity and Parental Leave Options  
+3. Paid Time Off (PTO)  
+4. 401(k) Plan  
+  
+If you are not sure that every qualification on the list above describes you exactly, we'd still love to hear from you! At Amazon, we value people with unique backgrounds, experiences, and skillsets. If you’re passionate about this role and want to make an impact on a global scale, please apply!
+
+**BASIC QUALIFICATIONS**
+------------------------
+
+* 7+ years of project management, real estate development, architecture/design experience
+* Bachelor's degree
+
+**PREFERRED QUALIFICATIONS**
+----------------------------
+
+* Do you have experience in project management, real estate development, architecture/design?
+
+  
+Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.  
+  
+Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.  
+  
+Our compensation reflects the cost of labor across several US geographic markets. The base pay for this position ranges from $81,200/year in our lowest geographic market up to $181,600/year in our highest geographic market. Pay is based on a number of factors including market location and may vary depending on job-related knowledge, skills, and experience. Amazon is a total compensation company. Dependent on the position offered, equity, sign-on payments, and other forms of compensation may be provided as part of a total compensation package, in addition to a full range of medical, financial, and/or other benefits. For more information, please visit https://www.aboutamazon.com/workplace/employee-benefits. This position will remain posted until filled. Applicants should apply via our internal or external career site.","Internet And Software","https://www.indeed.com/cmp/Amazon.com","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/3e9d43f5c277de169808abdcaf49ba2c","https://www.amazon.jobs","440 Terry Ave N, Seattle, WA, United States, Washington","10,000+","more than $10B (USD)","Our mission is to be Earth's most customer-centric company.","","","","","",""
+"in-168a5f59e5a35a58","indeed","https://www.indeed.com/viewjob?jk=168a5f59e5a35a58","https://www.amazon.jobs/jobs/3116077/preconstruction-manager-nacf-design-and-construction?cmpid=DA_INAD200785B","Pre-Construction Manager, NACF Design and Construction","Amazon.com","New York, NY, US","2025-10-08","fulltime","direct_data","yearly",69700.0,155800.0,"USD",True,"","","","","**DESCRIPTION**
+---------------
+
+Come build for Amazon! Amazon opened its remote doors in 1995 and strives to be the world’s most customer-centric company, where customers can find and discover anything they might want to buy online. That customer experience is built on a foundation of innovative and highly technical Fulfillment Centers around the globe. This construction role will build and improve the physical infrastructure of Amazon's online fulfillment business.  
+  
+The North American Construction team is looking for an experienced Pre - Construction Manager who will be responsible for design and pre-construction of Amazon hubs in entire US as well as renovations & tenant improvements at existing Fulfillment Centers. The Pre-Construction Manager will serve as Amazon's representative and direct point of interface with design and engineering teams, General Contractors, as well as the primary integrator between construction and other Amazon stakeholders responsible for equipping, furnishing, and operating Fulfillment Centers.  
+  
+This opportunity combines construction engineering, planning, project management, facilities management, and contract management.
+  
+  
+Key job responsibilities  
+Responsible for project management on new construction and additional capacity improvements within existing North America Fulfillment Centers, Delivery Stations, or Sort Centers  
+Support construction scope review and development with internal technical teams and operational customers to facilitate engineering and design efforts on new and remodel projects  
+Responsible for managing multiple projects simultaneously, from relatively small renovations to large-sized ($100M+) new facilities  
+Work independently in the assigned regional area with minimal direction from leadership  
+Prepare reports, specifications, technical analysis to fully define the design requirements, equipment and services required on capacity expansion and remodel projects  
+Provide technical direction concerning engineering design / AutoCAD, building design, layouts, build details, schedules and materials in accordance with North American Customer Fulfillment (NACF) design parameters  
+Survey facilities, develop and document procedures to audit the facility, provide evaluations and analysis, and recommend solutions to facility infrastructure, safety and security problems involving facilities and people  
+Negotiate contracts and contract changes with developers and General Contractors, and present formal documentation for approval when required  
+Ensure that contracts are fit for purpose, cost effective, and incorporate appropriate Service Level Agreements  
+Provide overall site management, coordination, planning, specification of business proposals, and coordination of subcontractors  
+Facilitate and team with others on due diligence evaluation of new opportunities  
+Assess project performance through Key Performance Indicators for safety, quality, cost, schedule, and sustainability  
+Partner with teams tasked with transition of base building management and oversight of all turnover documentation  
+Coach and guide all project teams (developers, design engineers, general contractors, sub-contractors, internal stakeholders) throughout the full project lifecycle  
+Ensure that contracted resources deliver work to meet duration and quality targets, addressing and ensuring the correction of under-performance issues  
+Audit contractors to check that the skills and competencies of contract labor are appropriate to need and they are fit to undertake the work on which they will be deployed  
+Inform developers and contractors of projected changes in resource or work demand so that they can take appropriate action  
+Identify and resolve clashes, design misses, and schedule conflicts with other Amazon execution teams  
+Establish and operate the information systems necessary for effective scheduling and recording of contract work  
+Review of designs and ongoing construction for conformance to current building specifications  
+Provide critical review of current design standards to identify value engineering and design enhancement opportunities to be considered by internal engineering and schematic design partners  
+Comprehensive budget tracking, forecasting, and management of assigned expansion, remodel, and new build projects  
+Receipt, review, and analysis of all proposed cost and time change requests as presented by external project teams  
+Review and guide internally requested changes for validity, impact, and ensure timely and cost sensitive incorporation once approved  
+Lead or assist in negotiations with appropriate regulatory bodies and Authority Having Jurisdiction (AHJ) entities as required  
+Positive, clear, concise, and transparent cross team communication for all aspects of project delivery  
+Be available during core working hours  
+This role requires 60% regional travel and availability to work from a corporate office when not traveling. Candidates should either live near or be willing to relocate within a reasonable commuting distance of the office. Relocation assistance may be provided.  
+  
+A day in the life  
+Amazon offers a full range of benefits that support you and eligible family members, including domestic partners and their children. Benefits can vary by location, the number of regularly scheduled hours you work, length of employment, and job status such as seasonal or temporary employment. The benefits that generally apply to regular, full-time employees include:  
+1. Medical, Dental, and Vision Coverage  
+2. Maternity and Parental Leave Options  
+3. Paid Time Off (PTO)  
+4. 401(k) Plan  
+  
+If you are not sure that every qualification on the list above describes you exactly, we'd still love to hear from you! At Amazon, we value people with unique backgrounds, experiences, and skillets. If you’re passionate about this role and want to make an impact on a global scale, please apply!
+
+**BASIC QUALIFICATIONS**
+------------------------
+
+* Bachelor’s degree in Engineering, Construction Management or comparable field 5 or more years of experience in commercial or industrial construction as an Engineer, Construction Manager, General Contractor PM, Owner’s Representative, Commercial Developer, or similar construction-related disciplines 5 or more years Project Management experience 5 or more years of experience negotiating construction, procurement and labor contracts.
+
+**PREFERRED QUALIFICATIONS**
+----------------------------
+
+* Master’s degree in Engineering or Construction Management Demonstrated skill in written & oral communication to technical and non-technical stakeholders. Specific experience in construction or renovation of commercial warehouse facilities or fulfillment centers. Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner. Our compensation reflects the cost of labor across several US geographic markets. The base pay for this position ranges from $69,700/year in our lowest geographic market up to $155,800/year in our highest geographic market. Pay is based on a number of factors including market location and may vary depending on job-related knowledge, skills, and experience. Amazon is a total compensation company. Dependent on the position offered, equity, sign-on payments, and other forms of compensation may be provided as part of a total compensation package, in addition to a full range of medical, financial, and/or other benefits. For more information, please visit https://www.aboutamazon.com/workplace/employee-benefits. This position will remain posted until filled. Applicants should apply via our internal or external career site.
+
+  
+Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.  
+  
+Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.  
+  
+Our compensation reflects the cost of labor across several US geographic markets. The base pay for this position ranges from $69,700/year in our lowest geographic market up to $155,800/year in our highest geographic market. Pay is based on a number of factors including market location and may vary depending on job-related knowledge, skills, and experience. Amazon is a total compensation company. Dependent on the position offered, equity, sign-on payments, and other forms of compensation may be provided as part of a total compensation package, in addition to a full range of medical, financial, and/or other benefits. For more information, please visit https://www.aboutamazon.com/workplace/employee-benefits. This position will remain posted until filled. Applicants should apply via our internal or external career site.","Internet And Software","https://www.indeed.com/cmp/Amazon.com","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/3e9d43f5c277de169808abdcaf49ba2c","https://www.amazon.jobs","440 Terry Ave N, Seattle, WA, United States, Washington","10,000+","more than $10B (USD)","Our mission is to be Earth's most customer-centric company.","","","","","",""
+"in-16f4941942742843","indeed","https://www.indeed.com/viewjob?jk=16f4941942742843","https://www.amazon.jobs/jobs/3108113/solar-construction-manager-north-america-construction-portfolios?cmpid=DA_INAD200785B","Solar Construction Manager, North America Construction Portfolios","Amazon.com","New York, NY, US","2025-10-06","fulltime","direct_data","yearly",81200.0,181600.0,"USD",True,"","","","","**DESCRIPTION**
+---------------
+
+Amazon is looking for a Construction Manager to lead design, construction, and activation of rooftop photovoltaic (PV) systems, micro grid energy resiliency solutions, and other innovative programs to support Amazon sustainability and our progress toward Climate Pledge goals. The Construction Manager will be responsible for project management of new builds, retrofits, expansion, and program initiatives from site selection through contract execution and operational turnover. Construction Managers are required to perform detailed deep dive reviews of job budgets and schedules to identify and resolve any discrepancies, including information in contractor bid packages. Construction Managers will partner with internal customers and external stakeholders to earn their trust and engage as a team to deliver results. The Construction Manager will serve as Amazon's representative and direct point of interface with Developers, General Contractors, Utility Providers, regulatory bodies, and all other stakeholders required for successful delivery of PV and other sustainability projects. as well as the primary integrator between construction and other Amazon stakeholders responsible for equipping, furnishing, and operating our FCs. This opportunity combines construction engineering, planning, project management, facilities management, and contract management.  
+This role requires 60% regional travel and availability to work from a corporate office when not traveling. Candidates should either live near or be willing to relocate within a reasonable commuting distance of the office. Relocation assistance may be provided.  
+  
+Key job responsibilities  
+
+* Responsible for construction project management of new rooftop PV systems (or other renewable energy/sustainability projects), as well as their activation and integration into local grids and Amazon operations.
+* Advise on the impact of changes in schedule, costs, and permitting.
+* Support construction scope review and development with internal technical teams and operational customers to facilitate engineering and design efforts on new and remodel projects.
+* Responsible for managing multiple projects simultaneously, from relatively small renovations to large-sized ($100M+) new facilities.
+* Work independently in the assigned regional area with minimal direction from leadership.
+* Prepare reports, specifications, technical analysis to fully define the design requirements, equipment and services required on capacity expansion and remodel projects.
+* Provide technical direction concerning engineering design / AutoCAD, building design, layouts, build details, schedules and materials in accordance with North American Customer Fulfillment (NACF) design parameters.
+* Survey facilities, develop and document procedures to audit the facility, provide evaluations and analysis, and recommend solutions to facility infrastructure, safety and security problems involving facilities and people.
+* Negotiate contracts and contract changes with developers and General Contractors, and present formal documentation for approval when required.
+* Ensure that contracts are fit for purpose, cost effective, and incorporate appropriate Service Level Agreements.
+* Provide overall site management, coordination, planning, specification of business proposals, and coordination of subcontractors.
+* Facilitate and team with others on due diligence evaluation of new opportunities.
+* Assess project performance through Key Performance Indicators for safety, quality, cost, schedule, and sustainability.
+* Partner with teams tasked with transition of base building management and oversight of all turnover documentation.
+* Coach and guide all project teams (developers, design engineers, general contractors, sub-contractors, internal stakeholders) throughout the full project lifecycle.
+* Ensure that contracted resources deliver work to meet duration and quality targets, addressing and ensuring the correction of under-performance issues.
+* Audit contractors to check that the skills and competencies of contract labor are appropriate to need and they are fit to undertake the work on which they will be deployed.
+* Inform developers and contractors of projected changes in resource or work demand so that they can take appropriate action.
+* Identify and resolve clashes, design misses, and schedule conflicts with other Amazon execution teams.
+* Establish and operate the information systems necessary for effective scheduling and recording of contract work.
+* Review of designs and ongoing construction for conformance to current building specifications.
+* Provide critical review of current design standards to identify value engineering and design enhancement opportunities to be considered by internal engineering and schematic design partners.
+* Comprehensive budget tracking, forecasting, and management of assigned expansion, remodel, and new build projects.
+* Receipt, review, and analysis of all proposed cost and time change requests as presented by external project teams.
+* Review and guide internally requested changes for validity, impact, and ensure timely and cost sensitive incorporation once approved.
+* Lead or assist in negotiations with appropriate regulatory bodies and Authority Having Jurisdiction (AHJ) entities as required.
+* Positive, clear, concise, and transparent cross team communication for all aspects of project delivery.
+* The role is remote and will include upwards of 60% travel regionally, with the potential of traveling to all North America locations based on the business needs.
+
+  
+A day in the life  
+If you are not sure that every qualification on the list above describes you exactly, we'd still love to hear from you! At Amazon, we value people with unique backgrounds, experiences, and skillsets. If you’re passionate about this role and want to make an impact on a global scale, please apply!
+  
+Amazon offers a full range of benefits that support you and eligible family members, including domestic partners and their children. Benefits can vary by location, the number of regularly scheduled hours you work, length of employment, and job status such as seasonal or temporary employment. The benefits that generally apply to regular, full-time employees include:  
+1. Medical, Dental, and Vision Coverage  
+2. Maternity and Parental Leave Options  
+3. Paid Time Off (PTO)  
+4. 401(k) Plan
+
+**BASIC QUALIFICATIONS**
+------------------------
+
+* 7+ years of project management, real estate development, architecture/design experience
+* Bachelor's degree
+* 7+ years experience in solar or renewable energy planning, design, and construction
+
+**PREFERRED QUALIFICATIONS**
+----------------------------
+
+* 3+ years experience in development or management of commercial power purchase agreements
+
+  
+Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.  
+  
+Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.  
+  
+Our compensation reflects the cost of labor across several US geographic markets. The base pay for this position ranges from $81,200/year in our lowest geographic market up to $181,600/year in our highest geographic market. Pay is based on a number of factors including market location and may vary depending on job-related knowledge, skills, and experience. Amazon is a total compensation company. Dependent on the position offered, equity, sign-on payments, and other forms of compensation may be provided as part of a total compensation package, in addition to a full range of medical, financial, and/or other benefits. For more information, please visit https://www.aboutamazon.com/workplace/employee-benefits. This position will remain posted until filled. Applicants should apply via our internal or external career site.","Internet And Software","https://www.indeed.com/cmp/Amazon.com","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/3e9d43f5c277de169808abdcaf49ba2c","https://www.amazon.jobs","440 Terry Ave N, Seattle, WA, United States, Washington","10,000+","more than $10B (USD)","Our mission is to be Earth's most customer-centric company.","","","","","",""
+"in-eca763e0aac1182b","indeed","https://www.indeed.com/viewjob?jk=eca763e0aac1182b","https://www.amazon.jobs/jobs/2928543/sr-construction-manager-north-america-construction-manager?cmpid=DA_INAD200785B","Sr. Construction Manager, North America Construction Manager","Amazon.com","New York, NY, US","2025-03-13","fulltime","direct_data","yearly",81200.0,181600.0,"USD",True,"","","","","**DESCRIPTION**
+---------------
+
+Amazon is looking for a Construction Manager who will be responsible for project management of  
+building industrial development including new builds, retrofits, expansion, and program initiatives from  
+site selection through contract execution. Construction Managers are responsible for construction of  
+new Fulfillment Centers (FCs) in the US as well as renovations & tenant improvements at existing FCs.  
+Construction Managers will also handle the implementation of the facility network infrastructure; including sortation centers, delivery stations, and auxiliary buildings that support those facilities. The construction projects include new builds, retrofits, and expansions. Construction Managers are required to perform detailed deep dive reviews of job budgets and schedules to identify and resolve any discrepancies, including information in contractor bid packages. Construction Managers will partner with internal customers and external stakeholders to earn their trust and engage as a team to deliver results. The Construction Manager will serve as Amazon's representative and direct point of interface with Developers and General Contractors, as well as the primary integrator between construction and other Amazon stakeholders responsible for equipping, furnishing, and operating our FCs. This opportunity combines construction engineering, planning, project management, facilities management, and contract management.  
+  
+This role requires 60% regional travel and availability to work from a corporate office when not traveling. Candidates should either live near or be willing to relocate within a reasonable commuting distance of the office. Relocation assistance may be provided.  
+  
+Key job responsibilities  
+
+* Responsible for project management over new construction of Fulfillment Centers throughout the US as well as renovations and capacity improvements within existing facilities.
+* Advise on the impact of changes in schedule, costs, and permitting.
+* Support construction scope review and development with internal technical teams and operational customers to facilitate engineering and design efforts on new and remodel projects.
+* Responsible for managing multiple projects simultaneously, from relatively small renovations to large-sized ($100M+) new facilities.
+* Work independently in the assigned regional area with minimal direction from leadership.
+* Prepare reports, specifications, technical analysis to fully define the design requirements, equipment and services required on capacity expansion and remodel projects.
+* Provide technical direction concerning engineering design / AutoCAD, building design, layouts, build details, schedules and materials in accordance with North American Customer Fulfillment (NACF) design parameters.
+* Survey facilities, develop and document procedures to audit the facility, provide evaluations and analysis, and recommend solutions to facility infrastructure, safety and security problems involving facilities and people.
+* Negotiate contracts and contract changes with developers and General Contractors, and present formal documentation for approval when required.
+* Ensure that contracts are fit for purpose, cost effective, and incorporate appropriate Service Level Agreements.
+* Provide overall site management, coordination, planning, specification of business proposals, and coordination of subcontractors.
+* Facilitate and team with others on due diligence evaluation of new opportunities.
+* Assess project performance through Key Performance Indicators for safety, quality, cost, schedule, and sustainability.
+* Partner with teams tasked with transition of base building management and oversight of all turnover documentation.
+* Coach and guide all project teams (developers, design engineers, general contractors, sub-contractors, internal stakeholders) throughout the full project lifecycle.
+* Ensure that contracted resources deliver work to meet duration and quality targets, addressing and ensuring the correction of under-performance issues.
+* Audit contractors to check that the skills and competencies of contract labor are appropriate to need and they are fit to undertake the work on which they will be deployed.
+* Inform developers and contractors of projected changes in resource or work demand so that they can take appropriate action.
+* Identify and resolve clashes, design misses, and schedule conflicts with other Amazon execution teams.
+* Establish and operate the information systems necessary for effective scheduling and recording of contract work.
+* Review of designs and ongoing construction for conformance to current building specifications.
+* Provide critical review of current design standards to identify value engineering and design enhancement opportunities to be considered by internal engineering and schematic design partners.
+* Comprehensive budget tracking, forecasting, and management of assigned expansion, remodel, and new build projects.
+* Receipt, review, and analysis of all proposed cost and time change requests as presented by external project teams.
+* Review and guide internally requested changes for validity, impact, and ensure timely and cost sensitive incorporation once approved.
+* Lead or assist in negotiations with appropriate regulatory bodies and Authority Having Jurisdiction (AHJ) entities as required.
+* Positive, clear, concise, and transparent cross team communication for all aspects of project delivery.
+* The role is remote and will include upwards of 60% travel regionally, with the potential of traveling to all North America locations based on the business needs.
+
+**BASIC QUALIFICATIONS**
+------------------------
+
+* A completed Bachelor’s degree in Architecture, Engineering, Construction Management or comparable field
+* 7+ years of experience as an Architect, Engineer, Construction Manager, or other Construction related disciplines
+* 7+ years project management experience from design phase through implementation and operation
+* 7+ years of experience negotiating construction, procurement and labor contracts
+* 7+ years familiarization with AutoCAD and/or Building Information Modeling (BIM), as well as scheduling software (Primavera, MS Project, or similar)
+
+**PREFERRED QUALIFICATIONS**
+----------------------------
+
+* Experience with at least two disciplines within the construction industry, which could consist of General Contracting, Owner’s Representation, Commercial Development, or Engineering & Design, or similar.
+* Demonstrated success in communicating project requirements to various audiences (e.g. senior management, peers, public officials, vendors, etc.)
+
+  
+Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.  
+  
+Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.  
+  
+Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.  
+  
+Our compensation reflects the cost of labor across several US geographic markets. The base pay for this position ranges from $81,200/year in our lowest geographic market up to $181,600/year in our highest geographic market. Pay is based on a number of factors including market location and may vary depending on job-related knowledge, skills, and experience. Amazon is a total compensation company. Dependent on the position offered, equity, sign-on payments, and other forms of compensation may be provided as part of a total compensation package, in addition to a full range of medical, financial, and/or other benefits. For more information, please visit https://www.aboutamazon.com/workplace/employee-benefits. This position will remain posted until filled. Applicants should apply via our internal or external career site.","Internet And Software","https://www.indeed.com/cmp/Amazon.com","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/3e9d43f5c277de169808abdcaf49ba2c","https://www.amazon.jobs","440 Terry Ave N, Seattle, WA, United States, Washington","10,000+","more than $10B (USD)","Our mission is to be Earth's most customer-centric company.","","","","","",""
+"in-787a5b7a2e491601","indeed","https://www.indeed.com/viewjob?jk=787a5b7a2e491601","https://www.amazon.jobs/jobs/2928552/construction-manager-north-america-construction-manager?cmpid=DA_INAD200785B","Construction Manager, North America Construction Manager","Amazon.com","New York, NY, US","2025-03-13","fulltime","direct_data","yearly",69700.0,155800.0,"USD",True,"","","","","**DESCRIPTION**
+---------------
+
+Amazon is looking for a Construction Manager who will be responsible for project management of  
+building industrial development including new builds, retrofits, expansion, and program initiatives from  
+site selection through contract execution. Construction Managers are responsible for construction of  
+new Fulfillment Centers (FCs) in the US as well as renovations & tenant improvements at existing FCs.  
+Construction Managers will also handle the implementation of the facility network infrastructure;  
+including sortation centers, delivery stations, and auxiliary buildings that support those facilities. The  
+construction projects include new builds, retrofits, and expansions. Construction Managers are required  
+to perform detailed deep dive reviews of job budgets and schedules to identify and resolve any  
+discrepancies, including information in contractor bid packages. Construction Managers will partner  
+with internal customers and external stakeholders to earn their trust and engage as a team to deliver  
+results. The Construction Manager will serve as Amazon's representative and direct point of interface  
+with Developers and General Contractors, as well as the primary integrator between construction and  
+other Amazon stakeholders responsible for equipping, furnishing, and operating our FCs. This  
+opportunity combines construction engineering, planning, project management, facilities management, and contract management.  
+  
+This role requires 60% regional travel and availability to work from a corporate office when not traveling. Candidates should either live near or be willing to relocate within a reasonable commuting distance of the office. Relocation assistance may be provided.  
+  
+Key job responsibilities  
+
+* Responsible for project management over new construction of Fulfillment Centers throughout the US as well as renovations and capacity improvements within existing facilities
+* Advise on the impact of changes in schedule, costs, and permitting.
+* Support construction scope review and development with internal technical teams and operational customers to facilitate engineering and design efforts on new and remodel projects
+* Responsible for managing multiple projects simultaneously, from relatively small renovations to large-sized ($100M+) new facilities
+* Work independently in the assigned regional area with minimal direction from leadership
+* Prepare reports, specifications, technical analysis to fully define the design requirements, equipment and services required on capacity expansion and remodel projects
+* Provide technical direction concerning engineering design / AutoCAD, building design, layouts, build details, schedules and materials in accordance with North American Customer Fulfillment (NACF) design parameters
+* Survey facilities, develop and document procedures to audit the facility, provide evaluations and analysis, and recommend solutions to facility infrastructure, safety and security problems involving facilities and people
+* Negotiate contracts and contract changes with developers and General Contractors, and present formal documentation for approval when required
+* Ensure that contracts are fit for purpose, cost effective, and incorporate appropriate Service Level Agreements
+* Provide overall site management, coordination, planning, specification of business proposals, and coordination of subcontractors
+* Facilitate and team with others on due diligence evaluation of new opportunities
+* Assess project performance through Key Performance Indicators for safety, quality, cost, schedule, and sustainability
+* Partner with teams tasked with transition of base building management and oversight of all turnover documentation
+* Coach and guide all project teams (developers, design engineers, general contractors, sub-contractors, internal stakeholders) throughout the full project lifecycle
+* Ensure that contracted resources deliver work to meet duration and quality targets, addressing and ensuring the correction of under-performance issues
+* Audit contractors to check that the skills and competencies of contract labor are appropriate to need and they are fit to undertake the work on which they will be deployed
+* Inform developers and contractors of projected changes in resource or work demand so that they can take appropriate action
+* Identify and resolve clashes, design misses, and schedule conflicts with other Amazon execution teams
+* Establish and operate the information systems necessary for effective scheduling and recording of contract work
+* Review of designs and ongoing construction for conformance to current building specifications
+* Provide critical review of current design standards to identify value engineering and design enhancement opportunities to be considered by internal engineering and schematic design partners
+* Comprehensive budget tracking, forecasting, and management of assigned expansion, remodel, and new build projects
+* Receipt, review, and analysis of all proposed cost and time change requests as presented by external project teams
+* Review and guide internally requested changes for validity, impact, and ensure timely and cost sensitive incorporation once approved
+* Lead or assist in negotiations with appropriate regulatory bodies and Authority Having Jurisdiction (AHJ) entities as required
+* Positive, clear, concise, and transparent cross team communication for all aspects of project delivery
+* The role is remote and will include upwards of 60% travel regionally, with the potential of traveling to all North America locations based on the business needs.
+
+**BASIC QUALIFICATIONS**
+------------------------
+
+* A completed Bachelor’s degree in Architecture, Engineering, Construction Management or comparable field
+* 3+ years of experience as an Architect, Engineer, Construction Manager, or other Construction related disciplines
+* 3+ years project management experience from design phase through implementation and operation
+* 3+ years of experience negotiating construction, procurement and labor contracts
+* 3+ years familiarization with AutoCAD and/or Building Information Modeling (BIM), as well as scheduling software (Primavera, MS Project, or similar)
+
+**PREFERRED QUALIFICATIONS**
+----------------------------
+
+* Experience with at least two disciplines within the construction industry, which could consist of General Contracting, Owner’s Representation, Commercial Development, or Engineering & Design, or similar. Demonstrated success in communicating project requirements to various audiences (e.g. senior management, peers, public officials, vendors, etc.)
+* Experience inclusive of facilities manager or similar and demonstrated capability in the planning, design review & implementation, and project management / control of new structures & the enhancement of existing facility buildings
+* Experience in program management of concurrent projects
+* Project Management accreditation (PMP or similar)
+
+  
+Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.  
+  
+Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.  
+  
+Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.  
+  
+Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.  
+  
+Our compensation reflects the cost of labor across several US geographic markets. The base pay for this position ranges from $69,700/year in our lowest geographic market up to $155,800/year in our highest geographic market. Pay is based on a number of factors including market location and may vary depending on job-related knowledge, skills, and experience. Amazon is a total compensation company. Dependent on the position offered, equity, sign-on payments, and other forms of compensation may be provided as part of a total compensation package, in addition to a full range of medical, financial, and/or other benefits. For more information, please visit https://www.aboutamazon.com/workplace/employee-benefits. This position will remain posted until filled. Applicants should apply via our internal or external career site.","Internet And Software","https://www.indeed.com/cmp/Amazon.com","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/3e9d43f5c277de169808abdcaf49ba2c","https://www.amazon.jobs","440 Terry Ave N, Seattle, WA, United States, Washington","10,000+","more than $10B (USD)","Our mission is to be Earth's most customer-centric company.","","","","","",""
