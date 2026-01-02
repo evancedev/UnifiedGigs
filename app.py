@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from __init__ import scrape_jobs
+from util import strip_markdown_formatting
 import datetime
 import csv
 
@@ -140,7 +141,7 @@ st.sidebar.header("Search Filters")
 # Job boards selection
 job_boards = st.sidebar.multiselect(
     "Select Job Boards",
-    ["linkedin", "indeed", "glassdoor", "google", "zip_recruiter", "bayt", "naukri"],
+    ["linkedin", "indeed"],
     default=["linkedin", "indeed"]
 )
 
@@ -178,7 +179,7 @@ location = st.sidebar.text_input("Location", "New York, NY")
 # Country for Indeed
 countries = ["USA", "UK", "Canada", "Australia", "India", "Germany", "France", "Spain", "Italy", "Singapore", 
              "Japan", "Brazil", "South Africa", "Mexico", "Netherlands", "Belgium", "Switzerland", "Hong Kong"]
-country_indeed = st.sidebar.selectbox("Country (for Indeed & Glassdoor)", countries)
+country_indeed = st.sidebar.selectbox("Country (for Indeed)", countries)
 
 # Work Type
 work_type = st.sidebar.radio(
@@ -325,7 +326,7 @@ if search_button:
                                     {job.get('currency', '')} {job.get('interval', 'per year') if job.get('interval') else 'per year'}
                                 </div>
                                 <div class="job-description">
-                                    {job.get('description', '')[:300] + '...' if job.get('description') else 'No description available'}
+                                    {strip_markdown_formatting(job.get('description', '')[:300] + '...' if job.get('description') else 'No description available')}
                                 </div>
                                 <div class="job-actions">
                                     <a href="{job.get('job_url', '#')}" target="_blank" class="view-job-btn">View Job 👉</a>

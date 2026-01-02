@@ -76,7 +76,13 @@ def scrape_jobs(
             ]
         return site_types
 
-    country_enum = Country.from_string(country_indeed)
+    try:
+        country_enum = Country.from_string(country_indeed)
+    except (ValueError, Exception) as e:
+        # If country string is invalid, default to USA
+        log = create_logger("UnifiedGigs")
+        log.warning(f"Invalid country '{country_indeed}', defaulting to USA: {str(e)}")
+        country_enum = Country.USA
 
     scraper_input = ScraperInput(
         site_type=get_site_type(),
@@ -108,8 +114,17 @@ def scrape_jobs(
     site_to_jobs_dict = {}
 
     def worker(site):
-        site_val, scraped_info = scrape_site(site)
-        return site_val, scraped_info
+        try:
+            site_val, scraped_info = scrape_site(site)
+            return site_val, scraped_info
+        except Exception as e:
+            # Log the error but don't fail the entire search
+            cap_name = site.value.capitalize()
+            site_name = "ZipRecruiter" if cap_name == "Zip_recruiter" else cap_name
+            logger = create_logger(site_name)
+            logger.warning(f"Failed to scrape {site_name}: {str(e)}. Returning empty results.")
+            # Return empty JobResponse instead of raising
+            return site.value, JobResponse(jobs=[])
 
     with ThreadPoolExecutor() as executor:
         future_to_site = {
@@ -117,8 +132,18 @@ def scrape_jobs(
         }
 
         for future in as_completed(future_to_site):
-            site_value, scraped_data = future.result()
-            site_to_jobs_dict[site_value] = scraped_data
+            try:
+                site_value, scraped_data = future.result()
+                site_to_jobs_dict[site_value] = scraped_data
+            except Exception as e:
+                # Additional safety net - if future.result() raises, catch it
+                site = future_to_site[future]
+                cap_name = site.value.capitalize()
+                site_name = "ZipRecruiter" if cap_name == "Zip_recruiter" else cap_name
+                logger = create_logger(site_name)
+                logger.warning(f"Failed to get results from {site_name}: {str(e)}. Skipping this site.")
+                # Add empty result so the search continues
+                site_to_jobs_dict[site.value] = JobResponse(jobs=[])
 
     jobs_dfs: list[pd.DataFrame] = []
 

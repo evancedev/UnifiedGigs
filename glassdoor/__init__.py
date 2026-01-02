@@ -68,7 +68,18 @@ class Glassdoor(Scraper):
         self.scraper_input = scraper_input
         # Limit the number of results to avoid excessive requests
         self.scraper_input.results_wanted = min(60, scraper_input.results_wanted)
-        self.base_url = self.scraper_input.country.get_glassdoor_url()
+        
+        # Handle None country - default to USA
+        if self.scraper_input.country is None:
+            log.warning("Glassdoor: country is None, defaulting to USA")
+            self.scraper_input.country = Country.USA
+        
+        try:
+            self.base_url = self.scraper_input.country.get_glassdoor_url()
+        except (AttributeError, Exception) as e:
+            log.error(f"Glassdoor: Error getting base URL: {str(e)}. Defaulting to USA.")
+            self.scraper_input.country = Country.USA
+            self.base_url = self.scraper_input.country.get_glassdoor_url()
 
         self.session = create_session(
             proxies=self.proxies, ca_cert=self.ca_cert, has_retry=True

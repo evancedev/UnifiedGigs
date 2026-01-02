@@ -158,6 +158,60 @@ def markdown_converter(description_html: str):
     return markdown.strip()
 
 
+def strip_markdown_formatting(text: str) -> str:
+    """
+    Removes markdown formatting characters from text.
+    Strips headers (####, ###, ##, #), bold (**text**), italic (*text*),
+    horizontal rules (---, ===), and other markdown syntax.
+    """
+    if text is None:
+        return ""
+    
+    # Remove markdown headers (#, ##, ###, ####, etc.) - handles cases like "#### **About the Role**"
+    text = re.sub(r'^#{1,6}\s+', '', text, flags=re.MULTILINE)
+    
+    # Remove bold formatting (**text** or __text__) - handles nested cases
+    text = re.sub(r'\*\*([^*]+)\*\*', r'\1', text)
+    text = re.sub(r'__([^_]+)__', r'\1', text)
+    
+    # Remove italic formatting (*text* or _text_) - but not if it's part of bold
+    text = re.sub(r'(?<!\*)\*([^*]+)\*(?!\*)', r'\1', text)
+    text = re.sub(r'(?<!_)_([^_]+)_(?!_)', r'\1', text)
+    
+    # Remove horizontal rules (---, ===, ***) on their own lines
+    text = re.sub(r'^[-=*]{3,}\s*$', '', text, flags=re.MULTILINE)
+    
+    # Remove multiple consecutive dashes/equals that appear after text (like "DESCRIPTION ---------------")
+    text = re.sub(r'\s+[-=]{3,}\s*', ' ', text)
+    text = re.sub(r'[-=]{3,}\s+', ' ', text)
+    
+    # Remove strikethrough (~~text~~)
+    text = re.sub(r'~~([^~]+)~~', r'\1', text)
+    
+    # Remove code blocks (```code```)
+    text = re.sub(r'```[^`]*```', '', text, flags=re.DOTALL)
+    
+    # Remove inline code (`code`)
+    text = re.sub(r'`([^`]+)`', r'\1', text)
+    
+    # Remove links [text](url) - keep just the text
+    text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', text)
+    
+    # Remove images ![alt](url) - keep just the alt text
+    text = re.sub(r'!\[([^\]]*)\]\([^\)]+\)', r'\1', text)
+    
+    # Remove any remaining multiple consecutive dashes/equals
+    text = re.sub(r'[-=]{3,}', '', text)
+    
+    # Clean up extra whitespace
+    text = re.sub(r'\n{3,}', '\n\n', text)  # Max 2 consecutive newlines
+    text = re.sub(r'[ \t]+', ' ', text)  # Multiple spaces to single space
+    text = re.sub(r'\s+\n', '\n', text)  # Remove trailing spaces before newlines
+    text = re.sub(r'\n\s+', '\n', text)  # Remove leading spaces after newlines
+    
+    return text.strip()
+
+
 def extract_emails_from_text(text: str) -> list[str] | None:
     if not text:
         return None

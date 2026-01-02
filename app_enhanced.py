@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from __init__ import scrape_jobs
 from freelance_gig_search import search_mern_freelance_gigs, get_mern_stack_search_queries
+from util import strip_markdown_formatting
 import datetime
 import csv
 
@@ -207,7 +208,7 @@ if search_type in ["🏢 Traditional Jobs", "🔍 Both"]:
     st.sidebar.subheader("Traditional Job Boards")
     job_boards = st.sidebar.multiselect(
         "Select Job Boards",
-        ["linkedin", "indeed", "glassdoor", "google", "zip_recruiter", "bayt", "naukri"],
+        ["linkedin", "indeed"],
         default=["linkedin", "indeed"]
     )
 
@@ -294,7 +295,7 @@ location = st.sidebar.text_input("Location", "Remote")
 # Country for Indeed
 countries = ["USA", "UK", "Canada", "Australia", "India", "Germany", "France", "Spain", "Italy", "Singapore", 
              "Japan", "Brazil", "South Africa", "Mexico", "Netherlands", "Belgium", "Switzerland", "Hong Kong"]
-country_indeed = st.sidebar.selectbox("Country (for Indeed & Glassdoor)", countries)
+country_indeed = st.sidebar.selectbox("Country (for Indeed)", countries)
 
 # Work Type
 work_type = st.sidebar.radio(
@@ -487,7 +488,7 @@ if search_button:
                             {opportunity.get('currency', 'USD')} | Type: {opportunity.get('project_type', 'Not specified')}
                         </div>
                         <div class="gig-description">
-                            {opportunity.get('description', '')[:300] + '...' if opportunity.get('description') else 'No description available'}
+                            {strip_markdown_formatting(opportunity.get('description', '')[:300] + '...' if opportunity.get('description') else 'No description available')}
                         </div>
                         <div class="gig-actions">
                             <a href="{opportunity.get('url', '#')}" target="_blank" class="view-gig-btn">View Gig 👉</a>
@@ -513,7 +514,7 @@ if search_button:
                             {opportunity.get('currency', '')} {opportunity.get('interval', 'per year') if opportunity.get('interval') else 'per year'}
                         </div>
                         <div class="job-description">
-                            {opportunity.get('description', '')[:300] + '...' if opportunity.get('description') else 'No description available'}
+                            {strip_markdown_formatting(opportunity.get('description', '')[:300] + '...' if opportunity.get('description') else 'No description available')}
                         </div>
                         <div class="job-actions">
                             <a href="{opportunity.get('job_url', '#')}" target="_blank" class="view-job-btn">View Job 👉</a>
@@ -617,8 +618,6 @@ else:
         **Traditional Job Boards:**
         - LinkedIn: Professional networking, full-time positions
         - Indeed: Large job database, various contract types
-        - Glassdoor: Company insights, salary information
-        - Google Jobs: Aggregated results from multiple sources
         
         **Freelance Platforms:**
         - Upwork: Large marketplace, diverse project types
